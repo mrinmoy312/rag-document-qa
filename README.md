@@ -165,26 +165,6 @@ Explain the concept mentioned in the document.
 What does the document say about [topic]?
 ```
 
-## 📈 Future Improvements
-
-- Support for DOCX files
-- Multiple document support
-- Persistent vector databases
-- Conversation memory
-- Streaming LLM responses
-- Document management
-- Improved source citations
-- Authentication
-- User-specific document collections
-- Cloud-based vector storage
-- Improved document metadata handling
-
-## 👨‍💻 Author
-
-**Mrinmoy Jana**
-
-B.Tech Computer Science & Engineering (Data Science)
-
 ## ⭐ Project Goal
 
 This project demonstrates the implementation of a complete Retrieval-Augmented Generation pipeline by combining document processing, semantic search, vector databases, LLM inference, and an interactive web interface.
