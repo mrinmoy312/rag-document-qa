@@ -30,6 +30,8 @@ The application uses LangChain for the RAG pipeline, Hugging Face Sentence Trans
 | PyPDF | PDF document loading |
 | pytest | Automated testing |
 
+## LIVE DEMO:rag-powered-document.streamlit.app/
+
 ## 🧠 Architecture
 
 ```text
