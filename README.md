@@ -32,7 +32,7 @@ The application uses LangChain for the RAG pipeline, Hugging Face Sentence Trans
 
 Live: https://rag-powered-document.streamlit.app/
 
-## 🧠 Architecture
+##  Architecture
 
 ```text
                     PDF / TXT
