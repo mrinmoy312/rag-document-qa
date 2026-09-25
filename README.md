@@ -66,32 +66,6 @@ Live: https://rag-powered-document.streamlit.app/
                   Source Chunks
 ```
 
-## 📂 Project Structure
-
-```text
-rag-document-qa/
-│
-├── app.py
-├── .env.example
-├── .gitignore
-├── README.md
-├── requirements.txt
-│
-├── sample_docs/
-│   └── sample.txt
-│
-├── src/
-│   ├── __init__.py
-│   ├── config.py
-│   ├── document_loader.py
-│   ├── llm_provider.py
-│   ├── vector_store.py
-│   └── rag_pipeline.py
-│
-└── tests/
-    └── test_pipeline.py
-```
-
 ## ⚙️ How It Works
 
 ### 1. Document Upload
