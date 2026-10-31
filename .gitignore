@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Vector store (regenerate by re-uploading a document; don't commit binary index files)
+vector_store/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
