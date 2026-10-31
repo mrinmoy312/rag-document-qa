@@ -25,3 +25,5 @@ tiktoken==0.14.0
 
 # Testing
 pytest==9.1.1
+
+langchain-groq==1.1.3
