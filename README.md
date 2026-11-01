@@ -82,8 +82,3 @@ The main idea is to make the model answer using the uploaded document rather tha
 
 live: https://rag-document-q.streamlit.app/
 
-
-
-## License
-
-MIT — see [LICENSE](LICENSE).
