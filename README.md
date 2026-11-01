@@ -133,32 +133,9 @@ own documents if answers feel too narrow or too vague.
 
 ## Deploying a live demo (free)
 
-A working link in your resume/portfolio is worth far more than a repo people have to clone
-to try. [Streamlit Community Cloud](https://streamlit.io/cloud) is free and takes about five
-minutes:
+live: https://rag-document-q.streamlit.app/
 
-1. Push this project to a public GitHub repo (`.env` is already gitignored — never commit it).
-2. Go to [share.streamlit.io](https://share.streamlit.io), sign in with GitHub, click **New app**.
-3. Point it at your repo, branch `main`, main file `app.py`.
-4. Under **Advanced settings → Secrets**, paste the contents of your `.env` file (this is
-   Streamlit Cloud's equivalent of environment variables — it's not committed to git).
-5. Deploy. You get a public `https://your-app.streamlit.app` URL to put on your resume.
 
-## Possible extensions
-
-Good talking points for an interview, and genuine next steps if you want to keep building:
-
-- **Hybrid search** — combine FAISS similarity search with BM25 keyword search for queries
-  with exact terms (names, IDs, section numbers) that pure embedding similarity can miss.
-- **Re-ranking** — run retrieved chunks through a cross-encoder re-ranker before generation
-  to improve precision on the top-k.
-- **Multi-document corpora** — index many documents at once and filter retrieval by source
-  document via FAISS metadata filtering.
-- **Streaming responses** — swap `StrOutputParser` invocation for `.stream()` so answers
-  render token-by-token in the UI instead of all at once.
-- **Evaluation harness** — a small labeled Q&A set per document, scored automatically
-  (e.g. with RAGAS) so you can measure the effect of chunk size or top-k changes objectively
-  instead of eyeballing it.
 
 ## License
 
