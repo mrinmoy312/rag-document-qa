@@ -1,6 +1,6 @@
 RAG-Powered Document Q&A
 
-Ever had a long PDF and struggled to find a specific piece of information in it?
+
 
 That's exactly why I built this project.
 
@@ -88,7 +88,7 @@ Configuration
 
 Python dotenv
 
-## Deploying a live demo (free)
+## Deploying a live demo
 
 live: https://rag-document-q.streamlit.app/
 
